@@ -1,0 +1,44 @@
+.swiper {
+     width: 97.9%;
+     position: absolute;
+     bottom: 0;
+     padding: 1rem;
+     margin-right: 2rem;
+
+     background: rgba(39, 39, 91, 0.7);
+     backdrop-filter: blur(2.7px);
+     -webkit-backdrop-filter: blur(2.7px);
+}
+
+.swiper-slide {
+     text-align: center;
+     background:transparent;
+
+     /* Center slide text vertically */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.swiper-pagination-bullet-active {
+     background-color: #ffffff !important;
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 768px){
+     .swiper{
+         width: 96%;
+     }
+}
+
+@media only screen and (max-width: 576px){
+     .swiper{
+          width: 91%;
+          height: 5rem;
+     }
+}
+

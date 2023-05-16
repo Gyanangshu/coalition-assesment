@@ -1,0 +1,68 @@
+.footer__section{
+    background-color: rgba(11, 11, 77, 0.801);
+    padding: 0.5rem 0;
+}
+
+.footer__content{
+    padding-inline: 10rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__brand{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer__logo{
+    height: 3rem;
+
+    opacity: 0.45;
+}
+
+.brand__name{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(173, 173, 235, 0.801);
+    opacity: 0.8;
+}
+
+.copyright{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: rgb(169, 169, 201);
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 768px){
+    .footer__content{
+        padding-inline: 4rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .footer__content{
+        padding-inline: 1rem;
+    }
+
+    
+    .footer__logo{
+        height: 2.5rem;
+    }
+
+    .brand__name{
+        font-size: 0.8rem;
+    }
+
+    .copyright{
+        font-size: 0.7rem;
+    }
+}

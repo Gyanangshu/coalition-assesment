@@ -1,0 +1,47 @@
+.first{
+    color: rgba(27, 2, 2, 0.658);
+}
+ 
+.main{
+    font-size: 6rem;
+    color: rgb(32, 32, 128);
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__section {
+    height: 100vh;
+    
+    background: url("../images/bg-1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 450;
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 576px){
+    .main{
+        font-size: 4rem;
+    }
+}

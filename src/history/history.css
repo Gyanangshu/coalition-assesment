@@ -1,0 +1,114 @@
+.history__section{
+    height: 100vh;
+    padding-top: 4rem;
+
+    position: relative;
+
+    background: url("../images/bg-2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.history__container{
+    padding-inline: 10rem;
+}
+
+.history__info{
+    display: flex;
+    align-items: center;
+}
+
+.number{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 7rem;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: rgb(38, 38, 100);
+    opacity: 0.5;
+}
+
+.title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    margin-bottom: 0;
+    margin-top: 2.8rem;
+
+    color: rgb(19, 19, 78);
+}
+
+.history__title{
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+}
+
+.history__para{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.icon{
+    height: 20px;
+}
+
+.slider__img{
+    width: 80%;
+    object-fit: contain;
+}
+
+/* .swiper__container{
+    padding: 1rem;
+    background: rgb(19, 19, 78);
+    
+} */
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 768px){
+    .number{
+        font-size: 10rem;
+    }
+
+    .history__para{
+        font-size: 1rem;
+    }
+
+    .title{
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .history__section{
+        padding-top: 1rem;
+    }
+
+    .history__container{
+        padding-inline: 2rem;
+    }
+
+    .history__para{
+        font-size: 1rem;
+    }
+
+    .number{
+        font-size: 5rem;
+    }
+
+    .title{
+        margin-top: 0.8rem;
+        font-size: 1.5rem;
+    }
+
+    .slider__img img{
+        width: 90%;
+    }
+}
