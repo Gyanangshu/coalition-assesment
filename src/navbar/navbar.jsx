@@ -31,8 +31,8 @@ const Navbar = () => {
         <div className={
           header ? 'nav__components nav__components-active' : 'nav__components'
         }>
-          <p><i>01.HISTORY</i><hr /></p>
-          <p><i>02.TEAM</i><hr /></p>
+          <a href="#history"><p><i>01.HISTORY</i><hr /></p></a>
+          <a href="#team"><p><i>02.TEAM</i><hr /></p></a>
         </div>
       </div>
 

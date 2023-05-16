@@ -5,7 +5,7 @@ import icon from "../images/history_icon.png"
 
 const climb = () => {
     return (
-        <section className='climb'>
+        <section className='climb' id='team'>
             <div className='climb__info'>
                 <p className='number'>02</p>
                 <div className='climb__info-container'>

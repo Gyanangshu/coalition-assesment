@@ -18,7 +18,7 @@ import slider2 from "../images/slider2.png"
 
 const history = () => {
     return (
-        <section className='history__section'>
+        <section className='history__section' id='history'>
             <div className='history__container'>
                 <div className='history__info'>
                     <p className='number'>01</p>

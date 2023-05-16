@@ -2,3 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
+
+html{
+    scroll: smooth;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
